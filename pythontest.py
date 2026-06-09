@@ -7,5 +7,5 @@ print(a)
 
 
 print("multiplication")
-e=b*c
+z=b*c
 print(e)
