@@ -7,5 +7,11 @@ print(a)
 
 
 print("multiplication")
-z=b*c
+e=b*c
 print(e)
+
+print("substraction")
+
+z=c-b
+
+print(z)
