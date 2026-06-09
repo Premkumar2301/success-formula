@@ -14,4 +14,4 @@ jobs:
              with:
                python-versiosn: '3.12'
 
-    -run: python pythontest.py
+              -run: python pythontest.py
