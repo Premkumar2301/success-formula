@@ -1,0 +1,17 @@
+name: MY_FIRST_CICD_PIPELINE
+
+on: 
+ push:
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+
+  steps:
+    - uses: actions/checkout@v4
+
+   - uses: actions/setup-python@v5
+   with:
+     python-versiosn: '3.12'
+
+    -run: python pythontest.py
